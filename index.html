@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="">
+    <header class="px-20 bg-[#881337] pt-5">
+        <div class="flex justify-between text-white">
+            <div class="text-2xl">Xinder</div>
+            <div class="flex space-x-5">
+                <p class="p-3">Explore</p>
+                <p class="p-3">Solutions</p>
+                <p class="p-3">Articles</p>
+                <p class="p-3">Sign In</p>
+                <p class="border border-white rounded-md p-3">Join Now</p>
+            </div>
+        </div>
+
+        <div class="flex justify-between">
+            <div class="mt-24 w-1/2 text-white">
+                <div class="text-7xl">Search the work of the best artists</div>
+                <div class="mt-4">
+                    <input type="text" name="search" placeholder="search for artists, work name, or category"
+                        class="py-2 w-3/4 px-5 rounded-md">
+                    <button class="bg-[#BE123C] rounded-md px-5 py-2">Search</button>
+                </div>
+                <div class="flex space-x-2 mt-2">
+                    <p class="border px-3 text-xs py-1 rounded-md">Oil Painting</p>
+                    <p class="border px-3 text-xs py-1 rounded-md">Abstract Art</p>
+                    <p class="border px-3 text-xs py-1 rounded-md">Sculpture</p>
+                    <p class="border px-3 text-xs py-1 rounded-md">Art Deco</p>
+                    <p class="border px-3 text-xs py-1 rounded-md">Pop Art</p>
+                </div>
+            </div>
+            <div class="w-1/2">
+                <img src="./assets/Pexels Photo by Ketut Subiyanto.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!-- Header Below Strips -->
+    <div class="flex space-x-20 text-[#94A3B8] font-semibold text-3xl justify-center bg-[#F1F5F9] py-8">
+        <p><img src="./assets/icons-grey/Logo-grey.png" alt=""></p>
+        <p><img src="./assets/icons-grey/Logo-grey (1).png" alt=""></p>
+        <p><img src="./assets/icons-grey/Logo-grey (2).png" alt=""></p>
+        <p><img src="./assets/icons-grey/Logo-grey (3).png" alt=""></p>
+        <p><img src="./assets/icons-grey/Logo-grey (4).png" alt=""></p>
+    </div>
+
+    <!-- Category Cards -->
+    <div class="px-20 my-10">
+        <div class="flex justify-between my-10">
+            <p class="text-3xl font-bold">Feature art categories</p>
+            <div class="text-[#2563EB] font-semibold mt-1.5 flex whitespace-nowrap">
+                <p class="pr-2">View All Categories</p>
+                <img src="./assets/right-arrow.svg" alt="" class="h-3 w-3 mt-2">
+            </div>
+        </div>
+        <div class="grid grid-cols-5 gap-5">
+            <!-- <div
+                class="bg-[url('https://images.pexels.com/photos/8259263/pexels-photo-8259263.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')] h-80 w-56 px-4 text-white py-5 rounded-md">
+                <p>Oil Painting</p>
+                <p class="font-semibold text-xl">Camel Portrait</p>
+            </div> -->
+            <div>
+                <img src="./assets/category/Content Box.png" alt="">
+            </div>
+
+            <div>
+                <img src="./assets/category/Content Box (1).png" alt="">
+            </div>
+
+            <div>
+                <img src="./assets/category/Content Box (2).png" alt="">
+            </div>
+
+            <div>
+                <img src="./assets/category/Content Box (3).png" alt="">
+            </div>
+
+            <div>
+                <img src="./assets/category/Content Box (4).png" alt="">
+            </div>
+
+            <!-- <div
+                class="bg-[url('https://images.pexels.com/photos/25912562/pexels-photo-25912562/free-photo-of-male-model-posing-on-the-brooklyn-bridge-during-a-foggy-weather.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')] h-80 w-56 px-4 text-white py-5 rounded-md">
+                <p>Abstract Painting</p>
+                <p class="font-semibold text-xl">Euforia</p>
+            </div>
+
+            <div
+                class="bg-[url('https://images.pexels.com/photos/20035451/pexels-photo-20035451/free-photo-of-buildings-around-cobblestone-street-in-city.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')] h-80 w-56 px-4 text-white py-5 rounded-md">
+                <p>Object Design</p>
+                <p class="font-semibold text-xl">Classic watch</p>
+            </div>
+
+            <div
+                class="bg-[url('https://images.pexels.com/photos/22276426/pexels-photo-22276426/free-photo-of-garden-architecture.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')] h-80 w-56 px-4 text-white py-5 rounded-md">
+                <p>Sculpture</p>
+                <p class="font-semibold text-xl">White Angel</p>
+            </div>
+
+            <div
+                class="bg-[url('https://images.pexels.com/photos/20643866/pexels-photo-20643866/free-photo-of-modern-skyscraper-building.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load')] h-80 w-56 px-4 text-white py-5 rounded-md">
+                <p>Pottery</p>
+                <p class="font-semibold text-xl">Vases Family</p>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- Slider Cards -->
+    <div class="px-20 my-10 bg-[#F1F5F9] p-5">
+        <div class="flex justify-between mt-10 mb-3">
+            <p class="text-3xl font-bold">Latest Masterpiece</p>
+            <div class="text-[#2563EB] font-semibold mt-1.5 flex whitespace-nowrap">
+                <p class="pr-2">Discover more Masterpiece</p>
+                <img src="./assets/right-arrow.svg" alt="" class="h-3 w-3 mt-2">
+            </div>
+        </div>
+        <div class="flex space-x-16">
+            <div>
+                <div
+                    class="bg-[url('./assets/masterpiece/Picture.png')] h-56 w-72 px-4 text-white py-3 rounded-md">
+                    <span class="bg-white text-black text-xs px-2 py-1 rounded-md">Promoted</span>
+                </div>
+                <div class="bg-white w-72 flex justify-around rounded-md p-3">
+                    <div>
+                        <img src="https://images.pexels.com/photos/21945949/pexels-photo-21945949/free-photo-of-a-woman-looking-out-the-window.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                            alt="" class="h-10 w-10 rounded-full">
+                    </div>
+                    <div>
+                        <p>Flower decorations</p>
+                        <p>By Melvina Spring</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div
+                    class="bg-[url('./assets/masterpiece/Picture1.png')] h-56 w-72 px-4 text-white py-3 rounded-md">
+                    <span class="bg-[#F3E8FF] text-[#6B21A8] text-xs px-2 py-1 rounded-md">Featured</span>
+                </div>
+                <div class="bg-white w-72 flex justify-around rounded-md p-3">
+                    <div>
+                        <img src="https://images.pexels.com/photos/21945949/pexels-photo-21945949/free-photo-of-a-woman-looking-out-the-window.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                            alt="" class="h-10 w-10 rounded-full">
+                    </div>
+                    <div>
+                        <p>Flower decorations</p>
+                        <p>By Melvina Spring</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div
+                    class="bg-[url('./assets/masterpiece/Picture2.png')] h-56 w-72 px-4 text-white py-3 rounded-md">
+                    <!-- <span class="bg-white text-black text-xs px-2 py-1 rounded-md">Promoted</span> -->
+                </div>
+                <div class="bg-white w-72 flex justify-around rounded-md p-3">
+                    <div>
+                        <img src="https://images.pexels.com/photos/21945949/pexels-photo-21945949/free-photo-of-a-woman-looking-out-the-window.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                            alt="" class="h-10 w-10 rounded-full">
+                    </div>
+                    <div>
+                        <p>Flower decorations</p>
+                        <p>By Melvina Spring</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div
+                    class="bg-[url('./assets/masterpiece/Picture3.png')] h-56 w-72 px-4 text-white py-3 rounded-md">
+                    <!-- <span class="bg-white text-black text-xs px-2 py-1 rounded-md">Promoted</span> -->
+                </div>
+                <div class="bg-white w-72 flex justify-around rounded-md p-3">
+                    <div>
+                        <img src="https://images.pexels.com/photos/21945949/pexels-photo-21945949/free-photo-of-a-woman-looking-out-the-window.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                            alt="" class="h-10 w-10 rounded-full">
+                    </div>
+                    <div>
+                        <p>Flower decorations</p>
+                        <p>By Melvina Spring</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Expanding Services -->
+    <div class="px-20 my-10 p-5">
+        <div>
+            <p class="text-center text-3xl font-bold">Expanding Services</p>
+        </div>
+
+        <div class="flex justify-around my-16">
+            <div>
+                <img src="./assets/Icon.svg" alt="" class="text-center">
+                <p>Lorem, ipsum.</p>
+            </div>
+            <div>
+                <img src="./assets/Icon (1).svg" alt="" class="text-center">
+                <p>Lorem, ipsum.</p>
+            </div>
+            <div>
+                <img src="./assets/Icon (2).svg" alt="" class="text-center">
+                <p>Lorem, ipsum.</p>
+            </div>
+            <div>
+                <img src="./assets/Icon (3).svg" alt="" class="text-center">
+                <p>Lorem, ipsum.</p>
+            </div>
+            <div>
+                <img src="./assets/Icon (4).svg" alt="" class="text-center">
+                <p>Lorem, ipsum.</p>
+            </div>
+        </div>
+
+        <div class="flex justify-center">
+            <button class="bg-[#BE123C] text-white px-8 py-2 rounded-md">Find Services</button>
+        </div>
+    </div>
+
+    <!-- Best Solutions -->
+    <div class="px-20 my-10 bg-[#475569] text-white p-5 py-20">
+        <div class="flex justify-between">
+            <div class="w-1/2">
+                <p class="text-5xl font-bold">Best Solution for your demanding collection</p>
+                <p class="py-6">Odio vulputate cras vel lacinia turpis volutpat adipiscing. Sollicitudin at velit,
+                    <br>
+                    blandit tempus nunc in.
+                </p>
+
+                <p class="flex"> <img src="./assets/Vector.svg" alt="" class="pr-3"> Interdum volutpat turpis malesuada
+                    ac turpis.</p>
+                <p class="flex"> <img src="./assets/Vector.svg" alt="" class="pr-3"> Tortor ipsum pretium quis nunc.</p>
+                <p class="flex"> <img src="./assets/Vector.svg" alt="" class="pr-3"> Vitae odio a id purus in.</p>
+
+                <button class="border mt-6 px-5 py-2 rounded-md">Explore Xinder</button>
+            </div>
+            <div class="w-1/2">
+                <img src="./assets/Col.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Video -->
+    <div class="px-20 my-10">
+        <div class="flex justify-center gap-16">
+            <div class="w-1/2">
+                <img src="./assets/Video.png" alt="" class="w-full">
+            </div>
+            <div class="w-1/2">
+                <div class="w-2/3 mt-32">
+                    <p>Marie Poirot, Co-Founder <span class="text-blue-400">Art-Gal</span></p>
+                    <p class="text-xl">“Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit
+                        in. Nibh in purus sit convallis phasellus ut. Neque suspendisse a habitasse commodo.”</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+    <div class="px-20 my-10 bg-[#475569] text-white p-5 py-20">
+        <div class="flex justify-center">
+            <div class="w-1/3">
+                <p class="text-6xl font-semibold">Be incredible</p>
+                <p class="my-8">Nec ultricies eget placerat ultricies eleifend dignissim aliquet sapien. Senectus
+                    vestibulum, eget erat at et congue cursus pretium.</p>
+                <button class="border mt-6 px-5 py-2 rounded-md">Explore Xinder</button>
+            </div>
+            <div class="w-2/3">
+                <img src="./assets/Row.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Art Event section -->
+    <div class="px-20 my-10 p-5">
+        <div class="flex justify-between mt-10 mb-3">
+            <p class="text-3xl font-bold">Latest Masterpiece</p>
+            <div class="text-[#2563EB] font-semibold mt-1.5 flex whitespace-nowrap">
+                <p class="pr-2">View All Events</p>
+                <img src="./assets/right-arrow.svg" alt="" class="h-3 w-3 mt-2">
+            </div>
+        </div>
+        <div class="flex space-x-20">
+            <div>
+                <div class="bg-[url('./assets/Picture.png')] h-56 w-96 px-4 text-white py-3 rounded-md">
+                    <span class="bg-[#F3E8FF] text-[#6B21A8] text-xs px-2 py-1 rounded-md">Featured</span>
+                </div>
+                <div class="bg-white flex justify-start rounded-md py-3">
+                    <div>
+                        <p class="text-2xl font-bold">Wild Horse Event</p>
+                        <p>Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="bg-[url('./assets/Picture1.png')] h-56 w-96 px-4 text-white py-3 rounded-md">
+                    <span class="bg-[#DCFCE7] text-[#166534] text-xs px-2 py-1 rounded-md">New</span>
+                </div>
+                <div class="bg-white flex justify-start rounded-md py-3">
+                    <div>
+                        <p class="text-2xl font-bold">Great Colors</p>
+                        <p>Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="bg-[url('./assets/Picture2.png')] h-56 w-96 px-4 text-white py-3 rounded-md">
+                    <span class="bg-[#FEF9C3] text-[#854D0E] text-xs px-2 py-1 rounded-md">Coming soon</span>
+                </div>
+                <div class="bg-white flex justify-start rounded-md py-3">
+                    <div>
+                        <p class="text-2xl font-bold">Happy Father's day</p>
+                        <p>Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Join now Banner -->
+    <div class="px-20 my-10 p-5 bg-[#0F172A]">
+        <div class="text-white">
+            <div class="flex">
+                <div class="mt-36">
+                    <p class="text-4xl font-bold">Add more masterpieces to your growing collection</p>
+                    <button class="border mt-6 px-5 py-2 rounded-md">Join now</button>
+                </div>
+                <div>
+                    <img src="./assets/Pexels Photo by Karolina Grabowska.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="px-20 my-10 p-5 bh-white">
+        <div class="grid grid-cols-6 border-b border-[#E2E8F0] py-10">
+            <div class="space-y-5 text-[#475569] text-[16px] font-[400]">
+                <p class="text-[16px] font-[500] text-[#475569]">Categories</p>
+                <p>User Interface</p>
+                <p>User Experience</p>
+                <p>Digital Media</p>
+                <p>Lifestyle</p>
+                <p>Programming</p>
+                <p>Animation</p>
+            </div>
+            <div class="space-y-5 text-[#475569] text-[16px] font-[400]">
+                <p class="text-[16px] font-[500] text-[#475569]">Product</p>
+                <p>Pricing</p>
+                <p>Overview</p>
+                <p>Browse</p>
+                <p>Accessibility</p>
+                <p>Five</p>
+                <p>Changelog</p>
+            </div>
+            <div class="space-y-5 text-[#475569] text-[16px] font-[400]">
+                <p class="text-[16px] font-[500] text-[#475569]">Solutions</p>
+                <p>Brain Storming</p>
+                <p>Ideation</p>
+                <p>Wireframing</p>
+                <p>Research</p>
+                <p>Design</p>
+                <p>Concept</p>
+            </div>
+            <div class="space-y-5 text-[#475569] text-[16px] font-[400]">
+                <p class="text-[16px] font-[500] text-[#475569]">Resources</p>
+                <p>Help Center</p>
+                <p>Blog</p>
+                <p>Tutorials</p>
+                <p>FAQs</p>
+                <p>Community</p>
+                <p>Events</p>
+            </div>
+            <div class="space-y-5 text-[#475569] text-[16px] font-[400]">
+                <p class="text-[16px] font-[500] text-[#475569]">Support</p>
+                <p>Contact Us</p>
+                <p>Developers</p>
+                <p>Documentation</p>
+                <p>Integrations</p>
+                <p>Reports</p>
+                <p>Webinars</p>
+            </div>
+            <div class="space-y-5 text-[#475569] text-[16px] font-[400]">
+                <p class="text-[16px] font-[500] text-[#475569]">Company</p>
+                <p>About</p>
+                <p>Press</p>
+                <p>Events</p>
+                <p>Careers</p>
+                <p>Customers</p>
+                <p>Partners</p>
+            </div>
+        </div>
+
+        <div class="flex justify-between py-5 text-[#475569]">
+            <div>
+                <p>@ 2023 Xinder, Inc. All rights reserved.</p>
+            </div>
+            <div>
+                <img src="./assets/Social Icons.png" alt="">
+            </div>
+        </div>
+
+        <div class="font-[400] text-[14px] pt-5 text-[#475569]">In sed posuere sed ullamcorper feugiat. Lacinia elit neque, ipsum, non. Tellus mattis enim volutpat habitasse. Semper posuere lectus consectetur aliquam et ullamcorper. Dictumst aenean justo fames diam eget volutpat vestibulum elit. Blandit aliquet bibendum pellentesque turpis id penatibus faucibus id nunc. Aenean rhoncus, erat pellentesque eu. Quis morbi condimentum phasellus in ultricies eu amet.</div>
+    </div>
+</body>
+
+</html>
